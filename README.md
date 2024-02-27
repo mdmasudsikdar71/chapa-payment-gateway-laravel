@@ -1,5 +1,9 @@
 # Chapa Laravel Package
 
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/mdmasudsikdar/chapa.svg?style=flat-square)](https://packagist.org/packages/mdmasudsikdar71/chapa-payment-gateway-laravel)
+[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/mdmasudsikdar/chapa/Tests?label=tests)](https://github.com/mdmasudsikdar71/chapa-payment-gateway-laravel/actions)
+[![Total Downloads](https://img.shields.io/packagist/dt/mdmasudsikdar/chapa.svg?style=flat-square)](https://packagist.org/packages/mdmasudsikdar71/chapa-payment-gateway-laravel)
+
 Chapa is a Laravel package that provides a client for interacting with the Chapa API. This package simplifies the integration process for Chapa payments in your Laravel application.
 
 ## Features
