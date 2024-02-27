@@ -1,0 +1,43 @@
+{
+    "name": "mdmasudsikdar71/chapa-payment-gateway-laravel",
+    "description": "Laravel package for Chapa Payment Gateway",
+    "type": "library",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MD Masud Sikdar",
+            "email": "masudsikdar85@gmail.com",
+            "role": "Software Engineer"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.6",
+        "phpunit/phpunit": "^10.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "MDMasudSikdar\\Chapa\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MDMasudSikdar\\Chapa\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MDMasudSikdar\\Chapa\\ChapaServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
